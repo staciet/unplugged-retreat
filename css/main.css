@@ -99,11 +99,21 @@ footer {
 
 /***************** Header Styles *****************/
 
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 100%;
+  margin: 0;
+}
+
+.header-divider {
+  width: 100%;
 }
 
 header nav {
@@ -111,11 +121,15 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
+  padding: 20px;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 45%;
+  list-style: none;
 }
 
 header nav ul li {
@@ -127,13 +141,36 @@ header nav ul li a {
 }
 
 /***************** Footer *****************/
+footer {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+}
+
+footer .content-wrapper {
+  flex-flow: column;
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer p {
+  margin: 0;
+  font-style: normal;
+}
 
 .footer-content {
-
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-flow: column;
 }
 
 .contact {
-
+  align-items: center;
+  justify-content: center;
 }
 
 .social {
@@ -149,7 +186,7 @@ header nav ul li a {
 }
 
 .copyright {
-
+  padding: 10px;
 }
 
 /***************** MOBILE Homepage Styles *****************/
@@ -168,12 +205,8 @@ aside {
   flex-flow: row wrap;
 }
 
-.form-description {
-
-}
-
-.form {
-
+.content-wrapper {
+  margin: 20px;
 }
 
 .features {
@@ -181,6 +214,11 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  text-align: center;
+}
+
+.features h1 {
+  text-align: left;
 }
 
 .features-items {
@@ -190,8 +228,16 @@ aside {
   flex-flow: row wrap;
 }
 
-.features-item-description {
+.features .article {
 
+}
+
+.features-item-description {
+  width: 55%;
+}
+
+.features p {
+  margin: 0;
 }
 
 .reviews {
@@ -201,8 +247,16 @@ aside {
   flex-flow: row wrap;
 }
 
-.review-description {
+.reviews h1 {
+  padding: 32px 0;
+}
 
+.reviews h2 {
+  width: 50%;
+}
+
+.review-description {
+  padding: 25px 0;
 }
 
 
