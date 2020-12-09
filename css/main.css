@@ -473,19 +473,24 @@ aside {
     width: 100%;
 }
 
-/*.FAQ-content {
-     display: flex;
-     flex-flow: row wrap;
-     justify-content: space-between;
-     align-items:center;
- }
-
-.question {
-  width: 45%;
-}*/
-
    @media screen and (min-width: 1200px) {
    /*Desktop styles here*/
+   header nav ul {
+     justify-content:flex-end;
+   }
+
+   header nav ul a {
+     margin: 18px;
+   }
+
+   aside .content-wrapper {
+     justify-content: space-around;
+   }
+
+   .features article {
+     width: 30%;
+   }
+
 
    }
 
