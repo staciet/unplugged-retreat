@@ -99,6 +99,7 @@ body {
 
 ul, ol {
   list-style-type: none;
+  color: #e2e3ed;
 }
 
 a {
@@ -110,16 +111,20 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   color: #e2e3ed;
+  font-weight: lighter;
 }
 
 h3,h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
+  font-weight: lighter;
+  color: #e2e3ed;
 }
 
 p {
   font-size: .875em;
   line-height: normal;
+  color: #e2e3ed;
 }
 
 img {
@@ -183,7 +188,6 @@ header nav ul {
   width: 100%;
   list-style: none;
   padding: 0;
-  color: #e2e3ed;
 }
 
 
@@ -198,10 +202,6 @@ footer {
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
-}
-
-footer h4 {
-font-weight: lighter;
 }
 
 footer p {
@@ -252,11 +252,6 @@ aside .content-wrapper {
   margin-top: 0px;
 }
 
-aside h3 {
-  font-style: normal;
-  font-weight: lighter;
-}
-
 .features {
   display: flex;
   justify-content: center;
@@ -266,7 +261,6 @@ aside h3 {
 .features h2 {
   margin-top: 0px;
   margin-bottom: 60px;
-  font-weight: lighter;
 }
 
 .features article {
@@ -299,7 +293,6 @@ aside h3 {
   align-items: center;
   flex-flow: row wrap;
   background-color: #2a423a;
-  color: #e2e3ed;
 }
 
 .reviews .content-wrapper {
@@ -310,16 +303,12 @@ aside h3 {
 .reviews h2 {
   margin-top: 0px;
   margin-bottom: 40px;
-  font-weight: lighter;
 }
 
 .reviews h3 {
   width: 55%;
   margin: 20px 0;
-  font-weight: lighter;
 }
-
-
 
 /***************** MOBILE About Styles *****************/
 .mission {
@@ -327,14 +316,7 @@ aside h3 {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-}
-
-.mission-content {
-
-}
-
-.map {
-
+  background-color: #527158;
 }
 
 .contact-section {
@@ -342,6 +324,7 @@ aside h3 {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .contact-content p{
@@ -358,10 +341,11 @@ aside h3 {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .FAQ .content-wrapper {
-  margin: 50px 0 0 0;
+  margin: 50px 0 50 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -369,13 +353,16 @@ aside h3 {
 }
 
 .FAQ h2 {
-  margin-bottom: 40px;
+  margin: 0px;
+}
+
+.FAQ p {
+  margin: 0px;
 }
 
 .FAQ-content {
-  margin-bottom: 50px;
+  margin-bottom: 25px 0 25 0;
 }
-
 
 /* ==========================================================================
    Helper classes
