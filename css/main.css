@@ -241,6 +241,13 @@ footer .social-icons p {
   align-items: center;
 }
 
+footer .social-icons i {
+  font-size: 3em;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
 footer .copyright {
   margin: 20px 0;
 }
@@ -309,6 +316,11 @@ aside .content-wrapper {
 
 .features p {
   margin: 0;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 20px;
 }
 
 .reviews {
