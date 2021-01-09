@@ -128,11 +128,14 @@ p {
 }
 
 img {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -165,6 +168,18 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+img {
+  width: 100%;
 }
 
 .header-divider {
@@ -237,6 +252,11 @@ footer .copyright {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  color: #e2e3ed;
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 aside {
@@ -256,6 +276,10 @@ aside .content-wrapper {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-image: url('../img/amenities.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .features h2 {
@@ -298,6 +322,14 @@ aside .content-wrapper {
 .reviews .content-wrapper {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.reviews img {
+  width: 100%;
+}
+
+.reviews figure {
+  margin: 0;
 }
 
 .reviews h2 {
@@ -489,6 +521,10 @@ aside .content-wrapper {
       justify-content: space-between;
     }
 
+    img {
+      width: 40%;
+    }
+
     .header-divider {
       width: 0%;
     }
@@ -503,7 +539,8 @@ aside .content-wrapper {
 
     aside .content-wrapper {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
+      align-items: center;
       flex-flow: row;
     }
 
@@ -521,9 +558,19 @@ aside .content-wrapper {
       margin: 0 45px;
     }
 
-    .reviews article {
+    .reviews .content-wrapper {
       display: flex;
+      flex-flow: row wrap;
       justify-content: space-between;
+    }
+
+    .reviews figure {
+      width: 50%;
+    }
+
+    .reviews article {
+      width: 45%;
+
     }
 
     .footer-content {
