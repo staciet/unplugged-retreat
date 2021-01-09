@@ -610,6 +610,10 @@ aside .content-wrapper {
      width: 45%;
  }
 
+ .map figure {
+   padding-bottom: 45%;
+ }
+
  .contact-content {
      display: flex;
      justify-content:space-between;
@@ -653,7 +657,9 @@ aside .content-wrapper {
    }
 
  /*ABOUT PAGE DESKTOP*/
-
+ .map figure {
+   padding-bottom: 38%;
+ }
 
    /*FAQ PAGE DESKTOP*/
 
