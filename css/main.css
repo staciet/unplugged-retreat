@@ -231,7 +231,7 @@ footer .contact {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
@@ -239,12 +239,11 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 footer .social-icons i {
   font-size: 3em;
-  display: flex;
-  align-items: center;
   margin: 20px;
 }
 
@@ -260,10 +259,18 @@ footer .copyright {
   align-items: center;
   flex-flow: row wrap;
   color: #e2e3ed;
-  background-image: url('../img/hero.jpg');
+  background: url('../img/hero.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  min-height: 500px;
+}
+
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 aside {
@@ -316,6 +323,7 @@ aside .content-wrapper {
 
 .features p {
   margin: 0;
+  text-align: center;
 }
 
 .features i {
@@ -565,11 +573,47 @@ aside .content-wrapper {
       justify-content: space-between;
     }
 
+    .hero-area {
+      min-height: 600px;
+    }
+
+    .hero-area h1 {
+      font-size: 3em;
+      line-height: 1;
+      margin: 0;
+    }
+
     aside .content-wrapper {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
       flex-flow: row;
+    }
+
+    aside .form-description {
+      display: flex;
+      flex-flow: row wrap;
+      width: 38%;
+      align-items: center;
+    }
+
+    aside .form-description h2 {
+      margin: 12px 0;
+    }
+
+    aside .form-description p {
+      width: 80%;
+      margin: 0;
+    }
+
+    aside .form {
+      display: flex;
+      flex-flow: row wrap;
+      width: 45%;
+    }
+
+    aside .form h2 {
+      margin: 12px 0;
     }
 
     .features article {
@@ -592,13 +636,26 @@ aside .content-wrapper {
       justify-content: space-between;
     }
 
+    .reviews article {
+      display: flex;
+      justify-content: space-between;
+    }
+
     .reviews figure {
       width: 50%;
     }
 
-    .reviews article {
-      width: 45%;
+    .reviews h2 {
+      width: 85%;
+    }
 
+    .reviews h3 {
+      width: 75%;
+      margin: 0;
+    }
+
+    .reviews article {
+      width: 42%;
     }
 
     .footer-content {
@@ -660,12 +717,26 @@ aside .content-wrapper {
      margin: 18px;
    }
 
+   .hero-area h1 {
+     font-size: 3.75em;
+     width: 80%;
+   }
+
    aside .content-wrapper {
      justify-content: space-around;
    }
 
    .features article {
-     width: 30%;
+     flex-basis: 33%;
+   }
+
+   .reviews h2 {
+     padding-bottom: 50px;
+     margin: 0;
+   }
+
+   .reviews article {
+     width: 42%;
    }
 
  /*ABOUT PAGE DESKTOP*/
